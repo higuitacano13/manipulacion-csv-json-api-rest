@@ -8,7 +8,7 @@ namespace WebAPI.Controllers
     [Route("[controller]")]
     public class ArchivoCSVController : ControllerBase
     {
-        [HttpGet(Name = "GetCSVFileContent")]
+        [HttpGet("GetCSVFileContent")]
         public IActionResult GetCSVFileContentInJson(string csvPath)
         {
             try
